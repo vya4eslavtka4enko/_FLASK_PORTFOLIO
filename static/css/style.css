@@ -1,0 +1,63 @@
+:root{
+    --Main_Color:rgba(0,0,255,0.3);
+    --BG_Color:rgba(0,0,205,0.3);
+    --Text_Color:#dadbe8;
+}
+.navbar{
+    width:100%;
+    padding:0;
+    color:var(--Text_Color)
+}
+.navbar-brand{
+    img{
+        margin-left:12%;
+        width:80px;
+        height:70px;
+    }
+
+}
+.container-fluid{
+    background-color:var(--Main_Color);
+    height:6em;
+    a{
+        color:var(--Text_Color)
+    }
+}
+.navigation_div{
+    margin-right:5%;
+    a{
+        color:var(--Text_Color)
+    }
+}
+footer{
+    position:fixed;
+    bottom:0;
+    background-color:var(--Main_Color);
+    width:100%
+}
+.bg-body-tertiary{
+    color:var(--Text_Color)
+}
+body{
+    background-image: url('/static/assets/img/bg-img.jpeg');
+    background-size:cover;
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+}
+.card{
+    margin:3% auto;
+    width:80%;
+}
+#card_info{
+    width:70%;
+    height:50%;
+}
+#card_index{
+    width:50%;
+    height:50%;
+    color:black;
+}
+.card-img-overlay{
+    background-color:var(--Main_Color);
+    width:40%;
+    height:100%;
+}
